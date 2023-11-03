@@ -12,7 +12,7 @@ Extention for manageing paswoprd locally rather then uploding them to third part
 
 ## How to Use
 - git clone https://github.com/mtahirishere/FF_Local_Creds_Ext.git
-- Launch API in python  Password_Fill
+- Launch API in python  PasswordFill
 - update code in FF_Extention_Code for Your API's IP
 - Create a zip and can be tested in Firefox Developer Addition as extention
 - Submit the zip to Mozilla Foundation for receiving proper Extention for All firefox Browsers for team. 
