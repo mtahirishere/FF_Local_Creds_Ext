@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Cardplace Password Manager",
+  "description": "Autofill username and password for a specific domain",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "webNavigation", "storage", "http://192.168.0.177:8000/get-password", "*://*/*"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/auto16.png",
+      "48": "images/auto48.png",
+      "128": "images/auto128.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mtahirishere@outlook.com",
+      "strict_min_version": "42.0"
+    }
+  }
+}
